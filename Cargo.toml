@@ -1,0 +1,11 @@
+[package]
+name = "learn-ecmascript-the-hard-way"
+version = "0.1.0"
+edition = "2018"
+authors = ["Limit Liu <limitliu@qq.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[workspace]
+
+[dependencies]
+core = { path = "./core" }
